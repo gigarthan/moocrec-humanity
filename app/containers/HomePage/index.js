@@ -6,6 +6,7 @@
  */
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function HomePage() {
   return (
@@ -20,7 +21,7 @@ export default function HomePage() {
               type="button"
               className="bg-black text-white p-4 text-2xl rounded-full w-4/5 mt-2 ml-10 tracking-wider self-center"
             >
-              Get Started
+              <Link to="questionnaire">Get Started</Link>
             </button>
           </div>
         </div>
